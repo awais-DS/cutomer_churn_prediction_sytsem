@@ -1,3 +1,5 @@
+import sys
+sys.path.append("cutomer_churn_prediction")
 import streamlit as st
 import pandas as pd
 from src.predict import run_production_inference
